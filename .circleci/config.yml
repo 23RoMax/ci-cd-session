@@ -21,4 +21,5 @@ jobs:
       - run: cd functions && npm install
       - run: cd functions && npm run lint
       - run: npm install
+      - run: npm deploy
       
