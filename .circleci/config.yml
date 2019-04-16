@@ -21,5 +21,5 @@ jobs:
       - run: cd functions && npm install
       - run: cd functions && npm run lint
       - run: npm install
-      - run: npm deploy
+      - run: cd functions && node_modules/firebase-tools/lib/bin/firebase.js deploy
       
